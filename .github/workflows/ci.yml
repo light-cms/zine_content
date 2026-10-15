@@ -20,5 +20,5 @@ jobs:
         run: |
           gh api \
             --method POST \
-            /repos/Pratyay360/pratyay/dispatches \
+            /repos/light-cms/zine_blog/dispatches \
             -f event_type=content_update
