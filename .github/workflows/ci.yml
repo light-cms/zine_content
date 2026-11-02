@@ -22,3 +22,8 @@ jobs:
             --method POST \
             /repos/light-cms/zine_blog/dispatches \
             -f event_type=content_update
+          
+          gh api \
+            --method POST \
+            /repos/light-cms/zine_template/dispatches \
+            -f event_type=content_update
